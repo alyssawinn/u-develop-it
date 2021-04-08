@@ -17,7 +17,7 @@ router.get('/candidates', (req, res) => {
             return;
         }
         res.json({
-            message: 'succes',
+            message: 'success',
             data: rows
         });
     });
